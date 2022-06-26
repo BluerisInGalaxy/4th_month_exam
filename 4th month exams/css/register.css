@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("/img/Background.png");
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: 50% 50%;
+    font-family: 'Roboto', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: red;
+    font-weight: 700;
+}
+
+.section{
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.sign-up{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 408px;
+    height: 400px;
+    background-color: white;
+    border-radius: 12px;
+}
+
+.sign-up-text-div{
+    position: relative;
+    border-radius: 8px;
+    text-align: center;
+    width: 377px;
+    height: 105px;
+    margin: 0 auto;
+    top: -79px;
+    background: linear-gradient(180deg, #E93B77 0%, #DA1F63 100%);
+}
+
+
+.sign-up-text{
+    margin: 40px 0 ;
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+.have-already-account-text{
+    text-align: center;
+    color: #7B809A;
+    font-weight: 400;
+    margin: 0 0 20px 0;
+    position: relative;
+    top: 8px;
+    font-size: 14px;
+}
+
+.btn-submit{
+    background: linear-gradient(180deg, #E93B77 0%, #DA1F63 100%);
+    width: 361px;
+    height: 40px;
+    border: 0;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin: 0 auto;
+    position: relative;
+    top: -14px;
+    cursor: pointer;
+}
+
+.inputs-div{
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    position: relative;
+    top: -45px;
+}
+
+.name{
+    border: 1px solid #C7CCD0;
+    width: 337px;
+    padding: 16px 11px;
+    border-radius: 8px;
+    margin: 0 auto;
+    color: #7B809A;
+}
+
+.email{
+    width: 337px;
+    border: 1px solid #C7CCD0;
+    padding: 16px 11px;
+    margin: 0 auto;
+    border-radius: 8px;
+    color: #7B809A;
+}
+
+.password{
+    border: 1px solid #C7CCD0;
+    width: 337px;
+    padding: 16px 11px;
+    border-radius: 8px;
+    margin: 0 auto;
+    color: #7B809A;
+}

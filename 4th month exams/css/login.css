@@ -1,0 +1,91 @@
+a{
+    color: red;
+    text-decoration: none;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.back-linear-red{
+    background: linear-gradient(180deg, #E93B77 0%, #DA1F63 100%);
+}
+
+.weight-bold{
+    font-weight: 700;
+}
+
+.weight-regular{
+    font-weight: 400
+}
+
+section{
+    display: flex;
+}
+
+.sign-in-text{
+    color: #7B809A;
+}
+
+.div-img{
+    background-image: url("/img/sign-in.png");
+    background-size: 80%;
+    background-position: 0% 50%;
+    width: 50%;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+
+.div-input-zone{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    gap: 14px;
+    margin-left: 10%
+}
+
+.input{
+    border: 1px solid #C7CCD0;
+    width: 337px;
+    padding: 16px 11px;
+    border-radius: 8px;
+    margin: 0 auto;
+    color: #7B809A;
+}
+
+.sign-in-title{
+    color: #344767;
+    font-size: 22px;
+}
+
+.email{
+    margin-top: 44px;
+}
+
+.password{
+    margin-bottom: 59px;
+}
+
+.btn{
+    background: linear-gradient(180deg, #E93B77 0%, #DA1F63 100%);
+    width: 361px;
+    height: 40px;
+    border: 0;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin: 0 auto 22px auto;
+}
+
+.dont-have-text{
+    color: #7B809A;
+    font-size: 14px;
+}
+
